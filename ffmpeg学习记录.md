@@ -10,6 +10,10 @@
 1. ffmpeg如何编码webm
 编码格式：
 
+2. webm素材
+https://simpl.info/videoalpha/
+mov素材： https://www.videvo.net/stock-video-footage/alpha/
+
 ```
 ## python ffmpeg lib
 - [PyAV](https://github.com/PyAV-Org/PyAV) ---------------------- [文档](https://pyav.org/docs/stable/)
@@ -19,5 +23,6 @@
 
 ### PyAV
 ```
-
+ 1. decode
+ 
 ```
