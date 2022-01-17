@@ -38,3 +38,8 @@ conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/'
 conda config --set show_channel_urls yes
 
 ```
+## 4.conda命令
+```
+conda --help
+conda info查看信息
+```
