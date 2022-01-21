@@ -44,3 +44,7 @@ PasswordAuthentication  yes  启用口令认证方式
 
 https://blog.csdn.net/wang704987562/article/details/72722263
 ```
+## 4.vim
+```
+yum install vim -y
+```
