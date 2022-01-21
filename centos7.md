@@ -48,3 +48,13 @@ https://blog.csdn.net/wang704987562/article/details/72722263
 ```
 yum install vim -y
 ```
+## 5.安装ifconfig
+```
+1.搜索安装包
+
+yum search ifconfig
+
+2.安装
+
+yum install -y net-tools.x86_64
+```
