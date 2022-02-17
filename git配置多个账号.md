@@ -2,6 +2,7 @@
 ```
 https://finisky.github.io/multiplegithubaccountsononemachine/
 https://www.jianshu.com/p/b15f2b5d87c6
+https://blog.csdn.net/argleary/article/details/100638560
 ```
 
 
