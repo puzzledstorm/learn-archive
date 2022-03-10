@@ -1,5 +1,11 @@
 ## 内置函数
 ```
+参考：
+https://zhuanlan.zhihu.com/p/58579207
+https://lyonyang.com/02-%E5%87%BD%E6%95%B0%E7%AF%87/03-%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6.html
+```
+
+```
 abs()           dict()        help()         min()         setattr()
 all()           dir()         hex()          next()        slice() 
 any()           divmod()      id()           object()      sorted() 
@@ -17,7 +23,6 @@ delattr()       hash()        memoryview()   set()
 ```
 
 ```
-参考：https://zhuanlan.zhihu.com/p/58579207  
 python匿名函数 lambda表达式
 filter
 sorted
