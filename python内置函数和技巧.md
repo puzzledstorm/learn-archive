@@ -4,6 +4,7 @@
 python匿名函数 lambda表达式
 filter
 sorted
+sort
 map
 reduce
 all
