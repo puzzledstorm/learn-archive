@@ -6,6 +6,9 @@ filter
 sorted
 map
 reduce
+all
+any
+zip
 ```
 
 ### lambda表达式
