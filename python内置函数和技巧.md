@@ -36,7 +36,13 @@ zip
 functools
 ```
 
-### lambda表达式
+### operator.itemgetter
 ```
- add = lambda x, y: x+y
+ 
+ 
+ ref: https://wiki.python.org/moin/HowTo/Sorting/#Key_Functions
+ https://docs.python.org/3/library/operator.html#operator.itemgetter
+ https://stackoverflow.com/questions/18595686/how-do-operator-itemgetter-and-sort-work
+ 
+ https://www.cnblogs.com/Renyi-Fan/p/14092900.html
 ```
