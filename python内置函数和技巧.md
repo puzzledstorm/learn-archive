@@ -10,6 +10,7 @@ reduce
 all
 any
 zip
+functools
 ```
 
 ### lambda表达式
