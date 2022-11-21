@@ -90,6 +90,7 @@ class Decoder(object):
             print(frame)
             array = frame.to_ndarray(format="bgr24")
             np_frames.append(array)
+        container.close()
         # print(np_frames)
         print(len(np_frames))
         print(np_frames[0].shape)
