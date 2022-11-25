@@ -1,0 +1,19 @@
+global:
+  scrape_interval:     15s # 默认抓取周期
+  external_labels:
+    monitor: 'codelab-monitor'  
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['172.16.139.24:9097', '172.16.139.24:8081'] 
+      
+  - job_name: 'node-exporter' #服务的名称
+    scrape_interval: 5s
+    metrics_path: /metrics  #获取指标的url
+    static_configs:
+      - targets: ['172.16.139.24:9130'] # 这个为监听指定服务服务的ip和port，需要修改为自己的ip,不能使用localhost和127.0.0.1
+ 
+  - job_name: "cadvisor"
+    static_configs:
+    - targets:
+      - '172.16.139.24:8081'
