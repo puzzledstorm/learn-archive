@@ -35,3 +35,9 @@ irb(main):005:0> exit
 netsh interface portproxy add v4tov4 listenport=8088 listenaddress=0.0.0.0 connectport=80 connectaddress=192.168.183.43
 ```
 这步骤做完之后，可以浏览器输入http://localhost:8088/ 访问, 不做也可以直接http://192.168.183.43 访问。
+
+## 参考
+```
+https://blog.51cto.com/u_15127505/3444297
+https://blog.csdn.net/Yxc19950122/article/details/126728247
+```
